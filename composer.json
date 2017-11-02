@@ -1,0 +1,20 @@
+{
+    "name": "david/composer-test",
+    "description": "Test pour initialiser un projet via composer",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aeltus",
+            "email": "david.danjard@gmail.com"
+        }
+    ],
+    "autoload": {
+     "psr-4": {
+         "": "src"
+     }
+}
+}
